@@ -41,8 +41,8 @@ class _MemesHomePageState extends State<MemesHomePage> {
       appBar: AppBar(
         backgroundColor: backgroundColor.withOpacity(0.6),
         title: Text(
-          "Memes App",
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          "Vibeit",
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
       ),
