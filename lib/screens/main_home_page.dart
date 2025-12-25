@@ -62,6 +62,9 @@ class _MemesHomePageState extends State<MemesHomePage> {
                 itemCount: memes.length,
                 itemBuilder: (context, index) {
                   final meme = memes[index];
+                  if(index==memes.length-1){
+                    fetchmemes();
+                  }
                   return MemeCard(
                     title: meme.title,
                     imageUrl: meme.url,
