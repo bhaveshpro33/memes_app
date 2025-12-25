@@ -30,7 +30,7 @@ class _MemesHomePageState extends State<MemesHomePage> {
   Future<void> fetchmemes() async{
     final fetchMemes=await MemeService.fetchmemes(context);
     setState(() {
-      memes=fetchMemes!;
+      memes+=fetchMemes!;
       isLoading=false;
     });
   }
